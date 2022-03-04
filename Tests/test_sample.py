@@ -14,6 +14,11 @@ def test_if_function_is_Buzz():
         else:
             assert FizzBuzz.fizzBuzz(i) == 'Buzz'
     
-
+def test_if_function_is_Fizz():
+    for i in range(0,100,3):
+        if i % 15 == 0:
+            pass
+        else:
+            assert FizzBuzz.fizzBuzz(i) == 'Fizz'
 
     
