@@ -1,7 +1,7 @@
 class FizzBuzz:
 	@staticmethod
 	def fizzBuzz(num):
-		if not num % 15:
+		if not num % 3 and not num % 5:
 			return "FizzBuzz"
 
 		if not num % 3:
